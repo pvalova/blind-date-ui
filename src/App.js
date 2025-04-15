@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+/*
 function App() {
   return (
     <div className="App">
@@ -20,6 +20,14 @@ function App() {
       </header>
     </div>
   );
+}*/
+import WelcomePage from './pages/WelcomePage';
+
+function App() {
+  return (
+    <WelcomePage />
+  );
 }
+
 
 export default App;
