@@ -1,0 +1,85 @@
+.mystery-page {
+    background-color: #FFF8E7;
+    height: 100vh;
+    padding: 32px;
+    font-family: Georgia, serif;
+    text-align: center;
+  }
+  
+  .mystery-heading {
+    font-size: 28px;
+    color: #3B2E2A;
+    margin-bottom: 30px;
+  }
+ 
+  
+  .searchbar-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .searchbar {
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+    background: #e9d8c7;
+  }
+  
+  .search-icon {
+    font-size: 20px;
+  }
+  .carousel-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .arrow {
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #5D4037;
+    cursor: pointer;
+    padding: 0 16px;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 24px;
+    scroll-behavior: smooth;
+    padding: 20px 0;
+  }
+  
+  .card {
+    background-color: #fff8e7;
+    border: 1px solid #d8c9b4;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .card-icon {
+    width: 80px;             /* Bigger & more readable */
+    height: auto;            /* Keep natural proportions */
+    margin: 20px auto 12px;  /* Nice spacing above and below */
+    display: block;
+  }
+  
+  
+  .card-button {
+    background-color: #5D4037;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-family: Georgia, serif;
+  }
+  

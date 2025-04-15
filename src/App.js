@@ -1,33 +1,24 @@
 
 import './App.css';
-/*
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}*/
-import WelcomePage from './pages/WelcomePage';
+
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import WelcomePage from "./pages/WelcomePage";
+import MysteryPage from "./pages/MysteryPage";
+// import SwapPage from "./pages/SwapPage"; // later
+// import BooksPage from "./pages/BooksPage"; // later
 
 function App() {
   return (
-    <WelcomePage />
+    <Router>
+      <Routes>
+        <Route path="/" element={<WelcomePage />} />
+        <Route path="/mystery" element={<MysteryPage />} />
+        {/* <Route path="/swap" element={<SwapPage />} /> */}
+        {/* <Route path="/books" element={<BooksPage />} /> */}
+      </Routes>
+    </Router>
   );
 }
-
 
 export default App;
