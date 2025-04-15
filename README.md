@@ -1,5 +1,4 @@
-Link to view on azure ![image](https://github.com/user-attachments/assets/6d115b79-7cb6-40d7-93e8-1f63766b03c9)
-
+Link to view on azure https://black-beach-048275803.6.azurestaticapps.net/
 
 # Getting Started with Create React App
 
