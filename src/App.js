@@ -9,7 +9,7 @@ import MysteryPage from "./pages/MysteryPage";
 // import BooksPage from "./pages/BooksPage"; // later
 
 function App() {
-  return (
+  return (  
     <Router>
       <Routes>
         <Route path="/" element={<WelcomePage />} />
